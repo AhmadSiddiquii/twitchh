@@ -293,8 +293,8 @@ app.post('/getClip', async (req, res) => {
   try {
     const response = await axios.get(`https://api.twitch.tv/helix/clips?id=${clipId}`, {
       headers: {
-        'Client-ID': 'gzt19qmwz2hv19fnl2ombsn8spzkmr',
-        'Authorization': 'Bearer vwi5l1cf6uv3ecrvk4u1ui3084kx16'
+        'Client-ID': process.env.CLIENT_ID, 
+        'Authorization': `Bearer ${process.env.BEARER_TOKEN}` 
       }
     });
     res.json(response.data);
@@ -303,6 +303,7 @@ app.post('/getClip', async (req, res) => {
     res.status(500).send('Error fetching clip');
   }
 });
+
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
