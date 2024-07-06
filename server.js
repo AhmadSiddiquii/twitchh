@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
         <style>
           body {
             font-family: Arial, sans-serif;
-            background-image: url("img1.PNG");
+            background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/99c6915c-74d2-4871-ad3b-311eee8bc721/ddpkxo3-72d20045-3042-45f3-be96-7c5d9a6fcb20.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5YzY5MTVjLTc0ZDItNDg3MS1hZDNiLTMxMWVlZThiYzcyMVwvZGRwa3hvMy03MmQyMDA0NS0zMDQyLTQ1ZjMtYmU5Ni03YzVkOWE2ZmNiMjAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NofPGgqJO7CD4478B115gHEoABsb_BFI_SEd5GaOW0w");
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
